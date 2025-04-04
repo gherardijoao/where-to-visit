@@ -1,3 +1,20 @@
 {
-  "places": []
+  "places": [
+    {
+      "id": "f13f",
+      "country": "Antártida",
+      "countryCode": "AQ",
+      "flag": "🇦🇶",
+      "local": "3423",
+      "meta": "09/2022"
+    },
+    {
+      "id": "99a0",
+      "country": "Alemanha",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "local": "bundesliga",
+      "meta": "05/2029"
+    }
+  ]
 }
