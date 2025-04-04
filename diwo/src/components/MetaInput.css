@@ -1,0 +1,18 @@
+.meta-container {
+  position: relative;
+  width: 100%;
+}
+
+.meta-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.meta-input:focus {
+  outline: none;
+  border-color: #fff;
+}

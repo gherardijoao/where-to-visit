@@ -1,0 +1,78 @@
+.place-card {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+  margin-bottom: 1rem;
+}
+
+.place-content {
+  padding: 1rem;
+}
+
+.place-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0.5rem;
+}
+
+.flag-container {
+  font-size: 1.5rem;
+}
+
+.country-name {
+  font-weight: bold;
+  color: #4f9419;
+  text-transform: uppercase;
+}
+
+.place-details {
+  margin: 0.5rem 0;
+}
+
+.detail-row {
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+
+.detail-label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.detail-value {
+  color: #333;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.edit-button:hover {
+  color: #4f9419;
+  background-color: rgba(79, 148, 25, 0.1);
+}
+
+.delete-button:hover {
+  color: #d32f2f;
+  background-color: rgba(211, 47, 47, 0.1);
+}

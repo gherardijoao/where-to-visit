@@ -1,0 +1,20 @@
+.select-container {
+  position: relative;
+  width: 100%;
+}
+
+.select-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  appearance: none;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+}
+
+.select-field:focus {
+  outline: none;
+  border-color: #fff;
+}
