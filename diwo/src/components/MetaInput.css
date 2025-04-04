@@ -1,6 +1,8 @@
 .meta-container {
   position: relative;
   width: 100%;
+  height: 46px;
+  box-sizing: border-box;
 }
 
 .meta-input {
