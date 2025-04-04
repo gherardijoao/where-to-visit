@@ -1,5 +1,5 @@
 import "./CountrySelect.css";
-import { FaGlobeAmericas } from "react-icons/fa";
+import { FiChevronDown } from "react-icons/fi";
 import { useEffect, useState } from "react";
 import { getCountries, CountryType } from "../services/countriesService";
 
@@ -61,25 +61,28 @@ export const CountrySelect = ({ value, onChange }: CountrySelectProps) => {
       ) : error ? (
         <div className="error">{error}</div>
       ) : (
-        <select
-          value={value}
-          onChange={(e) => {
-            const selected = countries.find((c) => c.code === e.target.value);
-            if (selected) {
-              onChange(selected.code, selected.name, selected.flag);
-            }
-          }}
-          className="select-field"
-        >
-          <option value="" disabled>
-            Selecione...
-          </option>
-          {countries.map((country) => (
-            <option key={country.code} value={country.code}>
-              {country.flag} {country.name}
+        <>
+          <select
+            value={value}
+            onChange={(e) => {
+              const selected = countries.find((c) => c.code === e.target.value);
+              if (selected) {
+                onChange(selected.code, selected.name, selected.flag);
+              }
+            }}
+            className="select-field"
+          >
+            <option className="select" value="" disabled>
+              Selecione...
             </option>
-          ))}
-        </select>
+            {countries.map((country) => (
+              <option key={country.code} value={country.code}>
+                {country.flag} {country.name}
+              </option>
+            ))}
+          </select>
+          <FiChevronDown className="chevron-icon" />
+        </>
       )}
     </div>
   );

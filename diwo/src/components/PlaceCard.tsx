@@ -1,5 +1,5 @@
 import "./PlaceCard.css";
-import { FiEdit, FiTrash2 } from "react-icons/fi";
+import { FiEdit2, FiX } from "react-icons/fi";
 
 type PlaceCardProps = {
   place: {
@@ -24,13 +24,13 @@ export const PlaceCard = ({ place, onEdit, onDelete }: PlaceCardProps) => {
             className="action-button edit-button"
             onClick={() => onEdit && onEdit(place.id)}
           >
-            <FiEdit size={16} />
+            <FiEdit2 size={16} />
           </button>
           <button
             className="action-button delete-button"
             onClick={() => onDelete && onDelete(place.id)}
           >
-            <FiTrash2 size={16} />
+            <FiX size={16} />
           </button>
         </div>
 

@@ -73,7 +73,7 @@
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #fff;
-  border-radius: 0.25rem;
+  border-radius: 7px;
   font-size: 1rem;
 }
 
@@ -85,7 +85,7 @@
   background-color: #006c18;
   color: white;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 7px;
   padding: 0.75rem;
   font-weight: 500;
   cursor: pointer;

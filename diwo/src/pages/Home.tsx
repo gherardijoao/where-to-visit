@@ -1,6 +1,6 @@
 import "./Home.css";
 import { useState, useEffect } from "react";
-import { FiEdit, FiTrash2, FiSave, FiX } from "react-icons/fi";
+import { FiSave, FiX } from "react-icons/fi";
 import { CountrySelect } from "../components/CountrySelect";
 import { MetaInput } from "../components/MetaInput";
 import { PlaceCard } from "../components/PlaceCard";
