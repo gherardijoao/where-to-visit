@@ -1,12 +1,3 @@
 {
-  "places": [
-    {
-      "id": "975f",
-      "country": "Brasil",
-      "countryCode": "BR",
-      "flag": "🇧🇷",
-      "local": "Bombinhas",
-      "meta": "09/2026"
-    }
-  ]
+  "places": []
 }

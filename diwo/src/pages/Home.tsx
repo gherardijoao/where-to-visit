@@ -207,53 +207,72 @@ export const Home = () => {
                   transition={{ duration: 0.3 }}
                 >
                   {editingId === place.id ? (
-                    <form onSubmit={handleSaveEdit} className="edit-form">
-                      <div className="place-header">
-                        <div className="flag-container">{place.flag}</div>
-                        <div className="country-name">{place.country}</div>
-                      </div>
-                      <div className="form-group">
-                        <label className="form-label">Local</label>
-                        <input
-                          value={editingPlace?.local || ""}
-                          onChange={(e) =>
-                            editingPlace &&
-                            setEditingPlace({
-                              ...editingPlace,
-                              local: e.target.value,
-                            })
-                          }
-                          className="input-field"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label className="form-label">Meta</label>
-                        <MetaInput
-                          value={editingPlace?.meta || ""}
-                          onChange={(value) =>
-                            editingPlace &&
-                            setEditingPlace({
-                              ...editingPlace,
-                              meta: value,
-                            })
-                          }
-                          required
-                        />
-                      </div>
-                      <div className="edit-actions">
-                        <button
-                          type="button"
-                          onClick={handleCancelEdit}
-                          className="cancel-button"
-                        >
-                          <FiX size={16} />
-                        </button>
-                        <button type="submit" className="save-button">
-                          <FiSave size={16} />
-                        </button>
-                      </div>
-                    </form>
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.98 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.98 }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      <form onSubmit={handleSaveEdit} className="edit-form">
+                        <div className="place-header">
+                          <div className="flag-container">{place.flag}</div>
+                          <div className="country-name">{place.country}</div>
+                        </div>
+
+                        <div className="form-group">
+                          <label className="form-label">Local</label>
+                          <input
+                            value={editingPlace?.local || ""}
+                            onChange={(e) =>
+                              editingPlace &&
+                              setEditingPlace({
+                                ...editingPlace,
+                                local: e.target.value,
+                              })
+                            }
+                            className="input-field"
+                            required
+                          />
+                        </div>
+
+                        <div className="form-group">
+                          <label className="form-label">Meta</label>
+                          <MetaInput
+                            value={editingPlace?.meta || ""}
+                            onChange={(value) =>
+                              editingPlace &&
+                              setEditingPlace({
+                                ...editingPlace,
+                                meta: value,
+                              })
+                            }
+                            required
+                          />
+                        </div>
+
+                        <div className="edit-actions">
+                          <motion.button
+                            type="button"
+                            onClick={handleCancelEdit}
+                            className="cancel-button"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            <FiX size={18} />
+                            Cancelar
+                          </motion.button>
+                          <motion.button
+                            type="submit"
+                            className="save-button"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            <FiSave size={18} />
+                            Salvar
+                          </motion.button>
+                        </div>
+                      </form>
+                    </motion.div>
                   ) : (
                     <PlaceCard
                       place={place}
