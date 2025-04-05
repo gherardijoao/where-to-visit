@@ -29,14 +29,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all 0.2s;
+  transition: all 0.3s ease; /* Smoother transition */
   font-size: 1rem;
   height: 46px;
   box-sizing: border-box;
 }
 
 .custom-select:hover {
-  border-color: #fff;
+  transform: scale(1.03); /* Zoom effect on hover */
 }
 
 .custom-select.open {

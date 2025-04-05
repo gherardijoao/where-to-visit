@@ -4,16 +4,22 @@
   height: 46px;
   box-sizing: border-box;
 }
-
 .meta-input {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #fff;
   border-radius: 7px;
-  transition: all 0.2s;
+  transition: all 0.25s ease; /* Smoother transition */
   font-size: 1rem;
 }
 
+.meta-input::placeholder {
+  color: #868686;
+}
+
+.meta-input:hover {
+  transform: scale(1.03); /* Zoom effect on hover */
+}
 .meta-input:focus {
   outline: none;
   border-color: #fff;

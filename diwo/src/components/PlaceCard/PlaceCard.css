@@ -2,8 +2,12 @@
   background: #fff;
   border-radius: 0.25rem;
   box-shadow: 0px 4px 4px 0px #00000040;
-  transition: all 0.2s;
+  transition: all 0.3s ease; /* Smoother transition */
   margin-bottom: 1rem;
+}
+
+.place-card:hover {
+  transform: scale(1.02); /* Zoom effect on hover */
 }
 
 .place-content {

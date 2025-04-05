@@ -1,92 +1,12 @@
 {
   "places": [
     {
-      "country": "Antártida",
-      "countryCode": "AQ",
-      "flag": "🇦🇶",
-      "local": "localzin",
-      "meta": "09/2022",
-      "id": "f13f"
-    },
-    {
-      "id": "99a0",
-      "country": "Alemanha",
-      "countryCode": "DE",
-      "flag": "🇩🇪",
-      "local": "bundesliga",
-      "meta": "05/2029"
-    },
-    {
-      "id": "a182",
+      "id": "975f",
       "country": "Brasil",
       "countryCode": "BR",
       "flag": "🇧🇷",
-      "local": "Rio de Janeiro",
-      "meta": "12/2028"
-    },
-    {
-      "id": "0785",
-      "country": "Brasil",
-      "countryCode": "BR",
-      "flag": "🇧🇷",
-      "local": "Rio de Janeiro",
-      "meta": "04/2027"
-    },
-    {
-      "id": "85bb",
-      "country": "Bielorússia",
-      "countryCode": "BY",
-      "flag": "🇧🇾",
-      "local": "russia ",
-      "meta": "01/2022"
-    },
-    {
-      "id": "892f",
-      "country": "Albânia",
-      "countryCode": "AL",
-      "flag": "🇦🇱",
-      "local": "alabama",
-      "meta": "09/2030"
-    },
-    {
-      "id": "3299",
-      "country": "Bósnia e Herzegovina",
-      "countryCode": "BA",
-      "flag": "🇧🇦",
-      "local": "149314134",
-      "meta": "12/4546"
-    },
-    {
-      "id": "5bb6",
-      "country": "Congo",
-      "countryCode": "CG",
-      "flag": "🇨🇬",
-      "local": "5646456",
-      "meta": "09/4525"
-    },
-    {
-      "id": "b2c0",
-      "country": "Cuba",
-      "countryCode": "CU",
-      "flag": "🇨🇺",
-      "local": "142341",
-      "meta": "09/4324"
-    },
-    {
-      "id": "53c1",
-      "country": "Alândia",
-      "countryCode": "AX",
-      "flag": "🇦🇽",
-      "local": "alandia",
-      "meta": "01/2024"
-    },
-    {
-      "id": "1397",
-      "country": "Brasil",
-      "countryCode": "BR",
-      "flag": "🇧🇷",
-      "local": "Rio de Janeiro",
-      "meta": "12/2025"
+      "local": "Bombinhas",
+      "meta": "09/2026"
     }
   ]
 }
