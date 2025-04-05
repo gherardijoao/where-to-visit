@@ -1,7 +1,7 @@
 import "./CountrySelect.css";
 import { FiChevronDown, FiSearch } from "react-icons/fi";
 import { useEffect, useState, useRef } from "react";
-import { getCountries, CountryType } from "../services/countriesService";
+import { getCountries, CountryType } from "../../services/countriesService";
 
 type CountrySelectProps = {
   value: string;

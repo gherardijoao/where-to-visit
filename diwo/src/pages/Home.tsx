@@ -1,9 +1,9 @@
 import "./Home.css";
 import { useState, useEffect } from "react";
 import { FiSave, FiX } from "react-icons/fi";
-import { CountrySelect } from "../components/CountrySelect";
-import { MetaInput } from "../components/MetaInput";
-import { PlaceCard } from "../components/PlaceCard";
+import { CountrySelect } from "../components/CountrySelect/CountrySelect";
+import { MetaInput } from "../components/MetaInput/MetaInput";
+import { PlaceCard } from "../components/PlaceCard/PlaceCard";
 import { Place } from "../types/Place";
 import Lugares from "../assets/Lugares.png";
 import { motion, AnimatePresence } from "framer-motion";

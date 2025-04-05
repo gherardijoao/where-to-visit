@@ -41,7 +41,6 @@ export const getCountries = async (): Promise<CountryType[]> => {
   }
 };
 
-// src/services/placesService.ts
 import { Place } from "../types/Place";
 
 const API_URL = "http://localhost:3001/places";

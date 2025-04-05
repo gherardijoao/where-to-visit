@@ -12,7 +12,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["vite/client"]
+    "types": ["vite/client", "jest", "node", "vitest"]
   },
   "include": ["src/**/*", "types/**/*"],
   "exclude": ["node_modules"]

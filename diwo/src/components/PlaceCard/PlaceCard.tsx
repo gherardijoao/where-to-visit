@@ -23,12 +23,16 @@ export const PlaceCard = ({ place, onEdit, onDelete }: PlaceCardProps) => {
           <button
             className="action-button edit-button"
             onClick={() => onEdit && onEdit(place.id)}
+            aria-label="Editar"
+            data-testid="edit-button"
           >
             <FiEdit2 size={16} />
           </button>
           <button
             className="action-button delete-button"
             onClick={() => onDelete && onDelete(place.id)}
+            aria-label="Deletar"
+            data-testid="delete-button"
           >
             <FiX size={16} />
           </button>

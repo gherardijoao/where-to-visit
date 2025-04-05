@@ -79,6 +79,14 @@
       "flag": "🇦🇽",
       "local": "alandia",
       "meta": "01/2024"
+    },
+    {
+      "id": "1397",
+      "country": "Brasil",
+      "countryCode": "BR",
+      "flag": "🇧🇷",
+      "local": "Rio de Janeiro",
+      "meta": "12/2025"
     }
   ]
 }
