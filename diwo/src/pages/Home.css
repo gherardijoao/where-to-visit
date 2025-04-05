@@ -77,7 +77,7 @@
   font-size: 1rem;
   height: 46px;
   box-sizing: border-box;
-  transition: all 0.3s ease; /* Smoother transition */
+  transition: all 0.3s ease;
 }
 
 .input-field::placeholder {
@@ -85,7 +85,7 @@
 }
 
 .input-field:hover {
-  transform: scale(1.03); /* Zoom effect on hover */
+  transform: scale(1.03);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .input-field:focus {
@@ -104,11 +104,11 @@
   font-size: 1rem;
   height: 46px;
   box-sizing: border-box;
-  transition: all 0.3s ease; /* Smoother transition */
+  transition: all 0.3s ease;
 }
 
 .add-button:hover {
-  transform: scale(1.05); /* Slightly larger zoom for button */
+  transform: scale(1.05);
 }
 .places-container {
   padding: 2rem 1rem;
@@ -123,8 +123,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
-/* Add these styles to your existing CSS */
 
 .edit-form {
   background: #fff;
