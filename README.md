@@ -1,4 +1,4 @@
-# Diwo Frontend - ChallengeLugares Que Quero Conhecer
+# Challenge Where To Visit
 
 Um aplicativo React para gerenciar lugares que você deseja conhecer ao redor do mundo.
 
